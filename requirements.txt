@@ -1,0 +1,6 @@
+agno
+fastapi
+uvicorn[standard]
+pypdf
+python-multipart
+openai

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: xp-b3-parser
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /docs
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: API_KEY
+        sync: false
